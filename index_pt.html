@@ -219,11 +219,11 @@
 
         <div class="content">
             <div class="update-date">
-                Última atualização: 09 de janeiro de 2025
+                Última atualização: 29 de novembro de 2025
             </div>
 
             <div class="highlight">
-                <strong>Em resumo:</strong> O aplicativo Lista Fácil NÃO coleta, armazena ou compartilha nenhum dado pessoal. Todas as suas listas de compras ficam armazenadas apenas no seu dispositivo.
+                <strong>Em resumo:</strong> O aplicativo Lista Fácil NÃO coleta ou armazena dados pessoais. Todas as suas listas de compras ficam armazenadas apenas no seu dispositivo. Utilizamos o Google AdMob para exibir anúncios, que pode coletar informações anônimas para personalização.
             </div>
 
             <h2>1. Introdução</h2>
@@ -269,25 +269,66 @@
                 <li>Gerenciar múltiplas listas de compras</li>
             </ul>
 
-            <h2>4. Compartilhamento de Dados</h2>
+            <h2>4. Anúncios e Google AdMob</h2>
             <p>
-                <strong>Nenhum dado é compartilhado.</strong> O aplicativo Lista Fácil não possui conexão com internet, servidores externos, serviços de análise ou redes de anúncios.
+                O aplicativo Lista Fácil exibe <strong>anúncios fornecidos pelo Google AdMob</strong> para manter o aplicativo gratuito.
+            </p>
+
+            <h3>4.1. Informações Coletadas pelo AdMob</h3>
+            <p>O Google AdMob pode coletar automaticamente as seguintes informações anônimas:</p>
+            <ul>
+                <li><strong>ID de publicidade do dispositivo (Advertising ID):</strong> Identificador anônimo e redefinível usado para personalização de anúncios</li>
+                <li><strong>Dados de localização aproximada:</strong> País, cidade ou região (não localização GPS precisa)</li>
+                <li><strong>Informações técnicas do dispositivo:</strong> Modelo do aparelho, sistema operacional, versão do Android, idioma</li>
+                <li><strong>Interações com anúncios:</strong> Cliques, visualizações e tempo de exibição</li>
+                <li><strong>Endereço IP:</strong> Para determinar localização aproximada e prevenir fraudes</li>
+            </ul>
+
+            <h3>4.2. Uso das Informações pelo AdMob</h3>
+            <p>O Google utiliza essas informações para:</p>
+            <ul>
+                <li>Exibir anúncios personalizados relevantes para você</li>
+                <li>Medir a eficácia dos anúncios</li>
+                <li>Prevenir fraudes e abusos</li>
+                <li>Melhorar os serviços de publicidade</li>
+            </ul>
+
+            <h3>4.3. Controle de Anúncios Personalizados</h3>
+            <p>Você pode controlar a personalização de anúncios:</p>
+            <ul>
+                <li><strong>Android:</strong> Configurações → Google → Anúncios → Desativar personalização de anúncios</li>
+                <li><strong>Redefinir ID de Publicidade:</strong> Configurações → Google → Anúncios → Redefinir ID de publicidade</li>
+            </ul>
+
+            <h3>4.4. Políticas do Google</h3>
+            <p>Para mais informações sobre como o Google coleta e processa dados:</p>
+            <ul>
+                <li><a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade do Google</a></li>
+                <li><a href="https://policies.google.com/technologies/ads" target="_blank">Como o Google usa dados de publicidade</a></li>
+                <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">Privacidade e AdMob</a></li>
+            </ul>
+
+            <h2>5. Compartilhamento de Dados</h2>
+            <p>
+                <strong>Não compartilhamos dados pessoais com terceiros</strong>, pois não coletamos dados pessoais.
+            </p>
+            <p>
+                As únicas informações processadas são aquelas coletadas automaticamente pelo Google AdMob, conforme descrito na seção 4.
             </p>
             <p>
                 Suas listas de compras permanecem <strong>100% privadas</strong> e acessíveis apenas por você no seu dispositivo.
             </p>
 
-            <h2>5. Permissões do Aplicativo</h2>
-            <p>O aplicativo solicita as seguintes permissões no Android:</p>
+            <h2>6. Permissões do Aplicativo</h2>
+            <p>O aplicativo solicita apenas a permissão <strong>INTERNET</strong>, necessária exclusivamente para:</p>
             <ul>
-                <li><strong>INTERNET:</strong> Permissão padrão do Flutter, porém <strong>não utilizada</strong> pelo app</li>
-                <li><strong>ACCESS_NETWORK_STATE:</strong> Permissão padrão do Flutter, porém <strong>não utilizada</strong> pelo app</li>
+                <li>Carregar e exibir anúncios do Google AdMob</li>
             </ul>
             <p>
-                <strong>Nota:</strong> Apesar destas permissões estarem declaradas (por padrão do framework Flutter), o aplicativo <strong>não realiza nenhuma conexão com a internet</strong>.
+                Não solicitamos permissões de localização, câmera, contatos, armazenamento externo ou qualquer outro acesso sensível.
             </p>
 
-            <h2>6. Segurança</h2>
+            <h2>7. Segurança</h2>
             <p>
                 Como todos os dados ficam armazenados apenas no seu dispositivo, a segurança das suas listas de compras depende:
             </p>
@@ -300,7 +341,7 @@
                 Recomendamos manter seu dispositivo protegido com senha ou biometria e fazer backups regulares das suas listas importantes.
             </p>
 
-            <h2>7. Direitos do Usuário (LGPD)</h2>
+            <h2>8. Direitos do Usuário (LGPD)</h2>
             <p>
                 De acordo com a Lei Geral de Proteção de Dados (LGPD - Lei 13.709/2018), você tem os seguintes direitos:
             </p>
@@ -311,12 +352,12 @@
                 <li><strong>Portabilidade:</strong> Seus dados estão no formato SharedPreferences padrão do seu dispositivo</li>
             </ul>
 
-            <h2>8. Menores de Idade</h2>
+            <h2>9. Menores de Idade</h2>
             <p>
                 O aplicativo Lista Fácil pode ser utilizado por pessoas de todas as idades. Como não coletamos nenhum dado pessoal, não há riscos relacionados à privacidade de menores.
             </p>
 
-            <h2>9. Alterações nesta Política</h2>
+            <h2>10. Alterações nesta Política</h2>
             <p>
                 Podemos atualizar esta Política de Privacidade ocasionalmente. Caso haja mudanças significativas, você será notificado através de uma atualização do aplicativo.
             </p>
@@ -324,7 +365,7 @@
                 A data da última atualização estará sempre visível no topo desta página.
             </p>
 
-            <h2>10. Exclusão de Dados</h2>
+            <h2>11. Exclusão de Dados</h2>
             <p>
                 Para excluir completamente seus dados:
             </p>
@@ -336,16 +377,28 @@
                 Ao desinstalar o app, todos os dados locais (listas e preferências) são automaticamente removidos pelo sistema Android.
             </p>
 
-            <h2>11. Serviços de Terceiros</h2>
+            <h2>12. Serviços de Terceiros</h2>
+            <p>
+                O aplicativo utiliza apenas o <strong>Google AdMob</strong> para exibir anúncios.
+            </p>
             <p>
                 O aplicativo <strong>NÃO utiliza</strong>:
             </p>
             <ul>
                 <li>Google Analytics ou ferramentas de análise</li>
-                <li>Redes de publicidade</li>
                 <li>SDKs de redes sociais</li>
-                <li>Serviços de nuvem</li>
+                <li>Serviços de nuvem ou backup em servidores externos</li>
                 <li>Rastreamento de erros (crash reporting)</li>
+                <li>Outras redes de publicidade além do AdMob</li>
+            </ul>
+
+            <h2>13. Conformidade Legal</h2>
+            <p>Esta política está em conformidade com:</p>
+            <ul>
+                <li>Lei Geral de Proteção de Dados (LGPD) - Brasil</li>
+                <li>Políticas do Google Play Store</li>
+                <li>Políticas do Google AdMob</li>
+                <li>General Data Protection Regulation (GDPR) - União Europeia</li>
             </ul>
 
             <div class="contact-box">
@@ -369,7 +422,7 @@
 
         <footer>
             <p><strong>NFDTech</strong> © 2025 - Todos os direitos reservados</p>
-            <p style="margin-top: 10px;">Aplicativo Lista Fácil v1.0.0</p>
+            <p style="margin-top: 10px;">Aplicativo Lista Fácil v1.1.0</p>
         </footer>
     </div>
 </body>
